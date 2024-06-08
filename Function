@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+void show()
+{
+    printf("vignan\n");
+}
+void line()
+{
+    printf("-------\n");
+}
+int main()
+{
+    line();
+    show();
+    line();
+    
+
+    return 0;
+}
