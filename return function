@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int add(int x,int y)
+{
+    int r=x+y;
+    return r;
+}
+ int main()
+ {
+     int a,b;
+     scanf("%d%d",&a,&b);
+     int k=add(a,b);
+     printf("%d",k);
+ }
