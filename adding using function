@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+void add(int x,int y)
+{
+    int r=x+y;
+    printf("%d",r);
+}
+ int main()
+ {
+     int a,b;
+     scanf("%d%d",&a,&b);
+     add(a,b);
+ }
+
+    
