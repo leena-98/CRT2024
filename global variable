@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+int a=100;
+void show()
+{
+    printf("show a=%d\n",a);
+}
+void display()
+{
+    printf("display a=%d\n",a);
+}
+int main()
+{
+    show();
+    display();
+    printf("main %d",a);
+}
