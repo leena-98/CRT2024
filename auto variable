@@ -1,0 +1,14 @@
+#include <stdio.h>
+main()
+{
+    auto int a=1;
+    {
+        auto int a=2;
+        {
+            auto int a=3;
+            printf("%d\t",a);
+        }
+        printf("%d\t",a);
+    }
+    printf("%d\t",a);
+}
