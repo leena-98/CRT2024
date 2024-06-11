@@ -1,0 +1,26 @@
+
+#include<stdio.h>
+
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    int a[n],i;
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&a[i]);
+    }
+    int sno;
+    scanf("%d",&sno);
+    for(i=0;i<n;i++)
+    {
+        if(sno==a[i])
+        {
+            printf("element is found");
+            break;
+        }
+    }
+    if(i==n)
+    printf("element is not found");
+    return 0;
+}
